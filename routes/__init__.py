@@ -6,7 +6,7 @@ from flask_login import LoginManager
 MYSQL_HOST = os.getenv("MYSQL_HOST", "localhost")
 MYSQL_PORT = os.getenv("MYSQL_PORT", "3306")
 MYSQL_USER = os.getenv("MYSQL_USER", "root")
-MYSQL_PWD = os.getenv("MYSQL_PWD", "elva90327")
+MYSQL_PWD = os.getenv("MYSQL_PWD", "test")
 MYSQL_DB = os.getenv("MYSQL_DB", "myblog_db")
 
 app = Flask(__name__, 
